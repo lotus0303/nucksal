@@ -17,7 +17,7 @@
   font-style: normal;
 }
 :root {
-  --swiper-theme-color: #ffffff;
+  --swiper-theme-color: #fc7770;
 }
 .swiper-container {
   margin-left: auto;
@@ -62,14 +62,13 @@
   height: 100%;
   position:relative;
   transition-property: transform;
-	overflow:hidden;
 }
 
 
 .swiper-slide img{
  position:absolute;
 	left:50%;
-	margin-left:-960px;/*사진 크기에 따라 수정할 것*/
+	margin-left:-335px;/*사진 크기에 따라 수정할 것*/
 }
 
 
@@ -263,8 +262,7 @@
   height: 8px;
   display: inline-block;
   border-radius: 100%;
-  background: #000;
-  opacity: 0.2;
+  background: #fff;
 }
 button.swiper-pagination-bullet {
   border: none;
