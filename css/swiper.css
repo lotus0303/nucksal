@@ -65,12 +65,30 @@
 }
 
 
-.swiper-slide img{
- position:absolute;
-	left:50%;
-	margin-left:-335px;/*사진 크기에 따라 수정할 것*/
+
+
+@media (min-width:1200px){
+        .swiper-slide img{
+          position:absolute;
+          left:50%;
+          margin-left:-335px;/*사진 크기에 따라 수정할 것*/
+        }
 }
 
+@media (min-width:601px) and (max-width:1199px){
+        .swiper-slide img{
+          position:absolute;
+          left:50%;
+          margin-left:-335px;/*사진 크기에 따라 수정할 것*/
+        }
+}
+@media (max-width:600px){
+    .swiper-slide img{
+      position:absolute;
+      left:50%;
+      margin-left:60%;/*사진 크기에 따라 수정할 것*/
+    }
+}
 
 
 .swiper-slide-invisible-blank {

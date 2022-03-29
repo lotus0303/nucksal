@@ -1,5 +1,5 @@
 *{margin:0; padding:0;}
-.swiper-container { width:668px; height:350px; margin-top: 50px; border-radius: 30px;}/*높이 수정할것!!!*/
+
 .swiper-slide {text-align: center; font-size: 18px;
 			  /* Center slide text vertically 
 			  display: -webkit-box;
@@ -28,4 +28,17 @@
 .swiper-pagination-bullet{background:#fc7770; width:10px; height:10px; opacity:0.5;}/*하단 블릿 크기와 색 수정할것!!!*/
 .swiper-pagination-bullet-active{opacity:1;}
 .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{bottom:14px;}
+
+/*pc*/
+@media (min-width:1200px){
+				.swiper-container { width:668px; height:450px; margin-top: 50px; border-radius: 30px;}/*높이 수정할것!!!*/
+}
+/*tablet*/
+@media (min-width:601px) and (max-width:1199px){
+				.swiper-container { width:668px; height:450px; margin-top: 50px; border-radius: 30px;}/*높이 수정할것!!!*/
+}
+
+@media (max-width:600px){
+				.swiper-container {height:320px; margin-top: 50px; border-radius: 30px;}
+}
 
