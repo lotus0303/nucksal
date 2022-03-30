@@ -18,6 +18,7 @@ body{
 	left: 0;
 	z-index: 98;
 	width: 100%;
+	box-sizing: border-box;
 }
 #pc_gnb{
 	float: right;
@@ -468,6 +469,9 @@ body{
 }
 /*mobile*/
 @media (max-width:600px){
+				#section2_wrap{
+					height: 650px;
+				}
 				#section2{
 					width: 100%;
 					margin: auto;
@@ -488,7 +492,7 @@ body{
 				.section2_right{
 					width: 100%;
 					text-align: center;
-					padding-top: 50px;
+					padding-top: 10px;
 				}
 				.section2_gnb{
 					width: 80%;
@@ -502,7 +506,7 @@ body{
 					
 				}
 				.swiper-container img{
-					width: 65%;
+					width: 90%;
 				}
 				.swiper-container{
 					width: none;
@@ -522,13 +526,6 @@ body{
 .section3_r{
 	float: right;
 }
-#slide{
-	width: 538px;
-	height: 480px;
-	margin: 0 auto;
-	position: relative;
-	overflow: hidden;
-}
 #slide img{
 	position: absolute;
 	width: 100%;
@@ -540,13 +537,19 @@ body{
 				padding-top: 200px;
 			}
 			.small_t_hide{display: none;}
+			#slide{
+				width: 538px;
+				height: 550px;
+				margin: 0 auto;
+				position: relative;
+				overflow: hidden;
+			}
 }
 /*tablet*/
 @media (min-width:601px) and (max-width:1199px){
 				#section3_wrap{
 					width: 100%;
 					margin: auto;
-					text-align: center;
 				}
 				.section3_l{
 					width: 100%;
@@ -561,7 +564,7 @@ body{
 					width: 100%;
 					text-align: center;
 					box-sizing: border-box;
-					padding-top: 100px;
+					padding-top: 150px;
 				}
 				.small_t_hide{display: none;}
 				.big_t_1{
@@ -569,6 +572,13 @@ body{
 				}
 				.small_t_2{
 					font-size: 22px;
+				}
+				#slide{
+					width: 538px;
+					height: 550px;
+					margin: 0 auto;
+					position: relative;
+					overflow: hidden;
 				}
 }
 /*mobile*/
@@ -595,6 +605,10 @@ body{
 			}
 			#slide{
 				width: 70%;
+				height: 400px;
+				margin: 0 auto;
+				position: relative;
+				overflow: hidden;
 			}
 			.small_t_2{display: none;}
 			.small_t_hide{font-size: 15px;}
@@ -1122,7 +1136,7 @@ body{
 		width: 100%;
 		text-align: center;
 		box-sizing: border-box;
-		padding-top: 150px;
+		padding-top: 130px;
 	}
 	.big_t_1{
 		font-size: 30px;

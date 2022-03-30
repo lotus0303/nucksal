@@ -86,7 +86,7 @@
     .swiper-slide img{
       position:absolute;
       left:50%;
-      margin-left:60%;/*사진 크기에 따라 수정할 것*/
+      margin-left:55%;/*사진 크기에 따라 수정할 것*/
     }
 }
 
