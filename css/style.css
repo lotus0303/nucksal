@@ -278,9 +278,10 @@ body{
 	font-size: 15px;
 	font-weight: 400;
 }
-.photo_box_phone span{
+.icon_t2{
 	font-size: 15px;
 	font-weight: 400;
+	padding-top: 10px;
 }
 /*pc*/
 @media (min-width:1200px){
